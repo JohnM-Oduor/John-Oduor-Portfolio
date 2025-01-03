@@ -1,0 +1,89 @@
+#contactPage {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid blue; */
+}
+
+.contactPageTitle{
+    font-size:  3rem;
+    margin-bottom: 1rem;
+}
+#contact{
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contactDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem; 
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    background: rgb(40, 40, 40);
+}
+.submitBtn{
+    background: white;
+    border: none;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    padding: 0.75rem 3.5rem;
+}
+.submitBtn:hover {
+    background-color: #0056b3; /* Darker blue */
+    transform: scale(1.05); /* Slightly enlarge */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow */
+    color: white;
+    cursor: pointer;
+}
+.submitBtn:active {
+    background-color: #003f7f; /* Even darker blue */
+    transform: scale(0.95); /* Slightly shrink */
+    box-shadow: none; /* Remove shadow */
+}
+.submit-button:focus {
+    outline: 2px solid #0056b3; /* Blue outline */
+    outline-offset: 2px;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.link{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.07rem;
+}
+.link:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}

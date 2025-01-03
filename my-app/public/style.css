@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background:transparent;
+    font-family: 'Roboto',sans-serif;
+}
+body {
+    /* Set up the gradient */
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+    /* background: linear-gradient(90deg, #004225,#003366 );  */
+    background: linear-gradient(90deg,#01274c, rgb(41, 39, 39), rgb(22, 21, 21),#2f0250); 
+    background-size: 300% 300%;
+    animation: gradientMove 10s ease infinite;
+    margin: 0;
+    height: 100vh;
+    
+}
+@keyframes gradientMove {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
